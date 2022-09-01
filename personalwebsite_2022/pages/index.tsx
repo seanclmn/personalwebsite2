@@ -7,13 +7,12 @@ const Home = () =>{
 			className="
 				w-[100vw]
 				h-[100vh]
-				pt-[20px]
-				bg-blue-100
 				"
 			>
 				<Navbar/>
 				<h2
 					className="
+						pt-[100px]
 						text-center
 						text-3xl"
 					>
@@ -29,10 +28,27 @@ const Home = () =>{
 						"
 					>
 					<Project 
-						projectName="projectname" 
+						projectName="Project name" 
 						projectUrl=""
-						projectImageUrl=""
+						projectImageUrl='/photos/kumamon.jpeg'
+						description='YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO'
 					/>
+
+					<Project 
+						projectName="Project name" 
+						projectUrl=""
+						projectImageUrl='/photos/kumamon.jpeg'
+						description='YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO'
+					/>
+
+					<Project 
+						projectName="Project name" 
+						projectUrl=""
+						projectImageUrl='/photos/kumamon.jpeg'
+						description='YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO'
+					/>
+
+
 				</div>
 
 		
