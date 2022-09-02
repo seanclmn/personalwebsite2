@@ -6,7 +6,9 @@ const Navbar = () => {
         border-solid
         border-gray-300
         mb-4
+        w-[100%]
         fixed
+        bg-[#e5e5ff]
       "
       >
       <ul

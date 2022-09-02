@@ -21,6 +21,7 @@ const Home = () =>{
 
 				<div
 					className="
+						w-[100vw]
 						flex
 						flex-col
 						items-center
