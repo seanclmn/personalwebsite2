@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #e5e5ff;
+html {
+  background-image: linear-gradient(270deg, rgb(235, 153, 235) , rgb(192, 227, 255));
+  scroll-behavior: smooth;
+
 }
+
+*{
+  margin:0;
+  padding:0;
+ }
+
+ a {
+  color: black;
+  text-decoration: none;
+ }
+ 
+ li {
+  color: white;
+ }

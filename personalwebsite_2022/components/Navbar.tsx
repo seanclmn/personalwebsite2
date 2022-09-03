@@ -1,32 +1,50 @@
+import { Header, NavLink } from "@mantine/core"
 const Navbar = () => {
   return(
-    <nav
-      className="
-        border-b-[1px]
-        border-solid
-        border-gray-300
-        mb-4
-        w-[100%]
-        fixed
-        bg-[#e5e5ff]
-      "
+    <Header
+      height={50}
       >
-      <ul
+
+      <div
         className="
-          flex
-          flex-row
-          justify-around
-          py-[15px]
-          max-w-[400px]
-          ml-auto
-        "
+          w-[100%]
+          bg-gradient-to-b from-indigo-600 to-indigo-500
+          "      
         >
-        <li className="cursor-pointer">Projects</li>
-        <li className="cursor-pointer">Resumé</li>
-        <li className="cursor-pointer">Social</li>
-        <li className="cursor-pointer">About</li>
-      </ul>
-    </nav>
+        <ul
+          className="
+            flex
+            flex-row
+            justify-around
+            py-[15px]
+            max-w-[400px]
+            ml-auto
+            list-none	
+          "
+          >
+  
+          <a href="#projects">
+            <li className="cursor-pointer">
+              Projects 
+            </li>
+          </a>
+  
+          <a>
+            <li className="cursor-pointer">
+              Resumé
+            </li>
+          </a>
+  
+          <a href="">
+            <li className="cursor-pointer">Social</li>
+          </a>
+  
+          <a href="#about">
+            <li className="cursor-pointer">About</li>
+          </a>
+        </ul>
+      </div>
+    </Header>
     )
 }
 
