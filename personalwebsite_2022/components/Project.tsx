@@ -7,24 +7,26 @@ interface ProjectProps {
 }
 
 const Project = ({projectName, projectUrl, projectImageUrl, description}:ProjectProps) => {
-  console.log(projectImageUrl)
   return(
     <a href={projectUrl}
       className="
         max-w-[800px]
         px-[50px]
-        py-[20px]
-        border-[1px]
-        rounded-md
-        border-solid
-        border-gray-300
         mb-4
+        h-screen
+        flex
+        flex-col
+        justify-start
         "
       >
       <div 
         className="
           max-w-[800px]
           mx-auto
+          mt-[100px]
+          flex
+          flex-col
+          items-center
         "
         >
         <h1 
@@ -37,7 +39,7 @@ const Project = ({projectName, projectUrl, projectImageUrl, description}:Project
           >
           {projectName}
         </h1>
-        <img className="w-[100%]" src={projectImageUrl} alt="project-image-url" />
+        <img className="w-[100%] max-w-[500px]" src={projectImageUrl} alt="project-image-url" />
         <p 
           className="
             text-sm

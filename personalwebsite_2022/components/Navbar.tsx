@@ -2,13 +2,12 @@ import { Header, NavLink } from "@mantine/core"
 const Navbar = () => {
   return(
     <Header
-      height={50}
+      height={"50px"}
+      sx={{backgroundColor: "00FFFFFF"}}
       >
-
       <div
         className="
           w-[100%]
-          bg-gradient-to-b from-indigo-600 to-indigo-500
           "      
         >
         <ul
