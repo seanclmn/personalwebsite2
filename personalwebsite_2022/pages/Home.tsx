@@ -18,11 +18,10 @@ const Home = () =>{
 					<p 
 						className="
 							text-7xl sm:text-2xl md:text-4xl
-                            
-                            "
+							"
 						>
 						Hi, I'm Sean Coleman.
-                        <br/>
+            <br/>
 						<span
 							className="text-5xl sm:text-2xl md:text-4xl"
 						 >
@@ -31,12 +30,12 @@ const Home = () =>{
 					</p>
 					<a href="#projects">
 						<Button
-                            variant="outline"
-                            color="grape"
-                            size="lg"
-                            radius="md"
+							variant="outline"
+							color="grape"
+							size="lg"
+							radius="md"
 							className="index mt-[100px] relative z-0 bg-transparent border-8"
-                            sx={{borderWidth: "2px", fontWeight:"normal"}}
+							sx={{borderWidth: "2px", fontWeight:"normal"}}
 							> 
 							Explore my projects
 						</Button>
@@ -49,17 +48,27 @@ const Home = () =>{
 					className="w-[100%] h-auto flex flex-col items-center"
 					>
 					<Project 
-						projectName="Project name" 
+						projectName="Writer" 
 						projectUrl=""
-						projectImageUrl='/photos/kumamon.jpeg'
-						description='YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO'
+						projectImageUrl='/photos/writer.png'
+						description='
+							This is a web application for writing and publishing blogs.
+							The frontend is built using React+Typescript and Chakra UI.
+							State management is handled with Zustand and React Query. 
+							Authentication and backend services are handled by Firebase.
+						'
 					/>
 
 					<Project 
-						projectName="Project name" 
+						projectName="Kanji" 
 						projectUrl=""
-						projectImageUrl='/photos/kumamon.jpeg'
-						description='YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO'
+						projectImageUrl='/photos/kanji.png'
+						description='
+							This is a web application for testing your kanji knowledge.
+							The frontend is built using React+Typescript and Mantine UI.
+							State management is handled with Redux. 
+							
+						'
 					/>
 
 					<Project 
