@@ -42,8 +42,9 @@ const Project = ({projectName, projectUrl, projectImageUrl, description}:Project
         <img className="w-[100%] max-w-[500px]" src={projectImageUrl} alt="project-image-url" />
         <p 
           className="
-            text-sm
+            text-lg
             mt-[20px]
+            text-white
             "
         >{description}</p>
       </div>

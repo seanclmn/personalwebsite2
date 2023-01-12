@@ -10,10 +10,10 @@ const Home = () =>{
 				{/* TITLE */}
 				<div
 					className="
-                        pt-[20vh] text-left h-[100vh] w-[80%] max-w-[800px] ml-[100px]
-                        sm:ml-[40px]
-                        md:ml-[60px]
-                        "
+						pt-[20vh] text-left h-[100vh] w-[80%] max-w-[800px] ml-[100px]
+						sm:ml-[40px]
+						md:ml-[60px]
+						"
 					>
 					<p 
 						className="
