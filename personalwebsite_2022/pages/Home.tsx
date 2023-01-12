@@ -20,12 +20,12 @@ const Home = () =>{
 							text-7xl sm:text-2xl md:text-4xl
 							"
 						>
-						Hi, I'm Sean Coleman.
+						Hi, I&#39;m Sean Coleman.
             <br/>
 						<span
 							className="text-5xl sm:text-2xl md:text-4xl"
 						 >
-						I'm a Software Developer.
+						I&#39;m a Software Developer.
 						</span>
 					</p>
 					<a href="#projects">

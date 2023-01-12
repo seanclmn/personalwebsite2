@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 
 interface ProjectProps {
   projectName: string
@@ -39,7 +41,7 @@ const Project = ({projectName, projectUrl, projectImageUrl, description}:Project
           >
           {projectName}
         </h1>
-        <img className="w-[100%] max-w-[500px]" src={projectImageUrl} alt="project-image-url" />
+        <Image className="w-[100%] max-w-[500px]" src={projectImageUrl} alt="project-image-url" />
         <p 
           className="
             text-lg
