@@ -71,14 +71,6 @@ const Home = () =>{
 						'
 					/>
 
-					<Project 
-						projectName="Project name" 
-						projectUrl=""
-						projectImageUrl='/photos/kumamon.jpeg'
-						description='YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO YO'
-					/>
-
-
 				</div>
 
 

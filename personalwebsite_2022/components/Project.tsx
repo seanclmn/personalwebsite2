@@ -41,7 +41,7 @@ const Project = ({projectName, projectUrl, projectImageUrl, description}:Project
           >
           {projectName}
         </h1>
-        <Image className="w-[100%] max-w-[500px]" src={projectImageUrl} alt="project-image-url" />
+        <img className="w-[100%] max-w-[800px]" src={projectImageUrl} alt="project-image-url" />
         <p 
           className="
             text-lg
