@@ -1,4 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Button, Text } from '@mantine/core'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 interface ProjectProps {
@@ -6,11 +9,12 @@ interface ProjectProps {
   projectUrl: string
   projectImageUrl: string
   description: string
+  nextProjectUrl: string
 }
 
-const Project = ({projectName, projectUrl, projectImageUrl, description}:ProjectProps) => {
+const Project = ({projectName, projectUrl, projectImageUrl, description,nextProjectUrl}:ProjectProps) => {
   return(
-    <a href={projectUrl}
+    <div
       className="
         max-w-[800px]
         px-[50px]
@@ -21,7 +25,7 @@ const Project = ({projectName, projectUrl, projectImageUrl, description}:Project
         justify-start
         "
       >
-      <div 
+      <div
         className="
           max-w-[800px]
           mx-auto
@@ -41,7 +45,9 @@ const Project = ({projectName, projectUrl, projectImageUrl, description}:Project
           >
           {projectName}
         </h1>
-        <img className="w-[100%] max-w-[800px]" src={projectImageUrl} alt="project-image-url" />
+        <Link href={projectUrl}>
+          <img className="w-[100%] max-w-[800px]" src={projectImageUrl} alt="project-image-url" />
+        </Link>
         <p 
           className="
             text-lg
@@ -49,8 +55,9 @@ const Project = ({projectName, projectUrl, projectImageUrl, description}:Project
             text-white
             "
         >{description}</p>
+        {nextProjectUrl.length>0 && <Link href={nextProjectUrl}><Button mt={20}>Next project</Button></Link>}
       </div>
-    </a>
+    </div>
     )
 }
 

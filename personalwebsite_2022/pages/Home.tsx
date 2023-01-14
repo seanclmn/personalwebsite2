@@ -1,4 +1,5 @@
-import { AppShell, Button } from "@mantine/core"
+import { AppShell, Button, Space, Title } from "@mantine/core"
+import Link from "next/link"
 import Navbar from '../components/Navbar'
 import Project from "../components/Project"
 
@@ -49,8 +50,9 @@ const Home = () =>{
 					>
 					<Project 
 						projectName="Writer" 
-						projectUrl=""
+						projectUrl="https://writer-seanclmn.vercel.app/signin"
 						projectImageUrl='/photos/writer.png'
+						nextProjectUrl="#kanji"
 						description='
 							This is a web application for writing and publishing blogs.
 							The frontend is built using React+Typescript and Chakra UI.
@@ -58,11 +60,12 @@ const Home = () =>{
 							Authentication and backend services are handled by Firebase.
 						'
 					/>
-
+					<div id="kanji"></div>
 					<Project 
 						projectName="Kanji" 
-						projectUrl=""
+						projectUrl="https://kanji-ecru.vercel.app/quizzes"
 						projectImageUrl='/photos/kanji.png'
+						nextProjectUrl=""
 						description='
 							This is a web application for testing your kanji knowledge.
 							The frontend is built using React+Typescript and Mantine UI.
@@ -73,18 +76,32 @@ const Home = () =>{
 
 				</div>
 
+				{/* <Link href="#about" ><div className="mx-auto"><Button >About me</Button></div></Link> */}
+
 
 				{/* ABOUT */}
 
-
+				<div id="about"></div>
 				<div
-					id="about"
-					className="w-[100%] h-[100vh] flex flex-col items-center text-center"
+					className="w-[100%] h-[100vh] flex flex-col items-center text-center mt-[100px]"
 					>
+					<Title>About me</Title>						
 					<p
-						className='mt-[80px]'
+						className='mt-[80px] text-left max-w-[800px]'
 						>
-						I am a frontend developer who is enthusiastic about React. I am also fluent in Japanese and English.
+						I am a frontend developer with experience working with frontend frameworks and libraries like 
+						React, Angular, AngularJS, as well testing libraries like Cypress, Jest, and Jasmine/Karma. 
+						I also have built projects involving backend tools like Node+Express, and Mongoose+MongoDB. 
+						I also speak fluent Japanese and English, and intermediate level French.
+						<br/><br/>
+						I have a Physics B.S. (2021) from Indiana University. After graduating, I joined General Assembly 
+						to study Software Engineering. I then landed my first full-time software development job at 
+						Exclaimer, where I developed new features and resolved critical bugs for their appointments booking site
+						and dashboard (AngularJS and Redux), as well as E2E test using Cypress. I also worked on a rewrite of the 
+						legacy application in Angular 13, with unit testing using Jest.
+						<br/><br/>
+						Currently, I am looking for new opportunities in software development. I am looking for frontend roles 
+						but am also open to full-stack positions.
 					</p>
 
 				</div>

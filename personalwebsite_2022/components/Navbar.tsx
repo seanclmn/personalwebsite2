@@ -28,15 +28,18 @@ const Navbar = () => {
             </li>
           </a>
   
-          <a>
+          <a
+            href="/resume_2022.pdf"
+            target="_blank"
+            >
             <li className="cursor-pointer">
               Resumé
             </li>
           </a>
   
-          <a href="">
-            <li className="cursor-pointer">Social</li>
-          </a>
+          {/* <a href="">
+            <li className="cursor-pointer"></li>
+          </a> */}
   
           <a href="#about">
             <li className="cursor-pointer">About</li>
