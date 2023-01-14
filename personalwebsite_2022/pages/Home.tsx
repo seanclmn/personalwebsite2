@@ -69,8 +69,9 @@ const Home = () =>{
 						description='
 							This is a web application for testing your kanji knowledge.
 							The frontend is built using React+Typescript and Mantine UI.
-							State management is handled with Redux. 
-							
+							State management is handled by React-Redux. The backend API 
+							was built using Node+Express, with a MongoDB database storing 
+							kanji data.
 						'
 					/>
 
@@ -97,8 +98,8 @@ const Home = () =>{
 						I have a Physics B.S. (2021) from Indiana University. After graduating, I joined General Assembly 
 						to study Software Engineering. I then landed my first full-time software development job at 
 						Exclaimer, where I developed new features and resolved critical bugs for their appointments booking site
-						and dashboard (AngularJS and Redux), as well as E2E test using Cypress. I also worked on a rewrite of the 
-						legacy application in Angular 13, with unit testing using Jest.
+						and dashboard (AngularJS and Redux), and also wrote E2E tests using Cypress. I also worked on a rewrite of the 
+						legacy application in Angular 13, with unit tests using Jest, and state management using NGXS.
 						<br/><br/>
 						Currently, I am looking for new opportunities in software development. I am looking for frontend roles 
 						but am also open to full-stack positions.
